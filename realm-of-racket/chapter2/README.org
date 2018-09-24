@@ -1,1 +1,3 @@
-* 
+* A first Racket program
+** Guess my number game
+
