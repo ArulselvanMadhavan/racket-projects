@@ -1,0 +1,10 @@
+* Basics of Racket
+** Comments
+   - Line Comments
+   - Block Comments - ~#|...|#~
+   - S-expression comment - ~#;~
+** Building blocks of Racket semantics
+   - Pieces of datga are the basic building blocks of meaning.
+   - Booleans - ~#t,#f~
+   - Symbols - word preceded by a "tick" mark.
+   - Numbers - Floating Point, integers, rationals, complex numbers.
