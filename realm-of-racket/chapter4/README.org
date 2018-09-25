@@ -1,0 +1,10 @@
+* Chapter 4 - Conditionals and Decisions
+** Predicates
+   - Type predicates
+   - Equality predicates(Basic types have their own equality
+     predicates and then there is ~equal?~ predicate for custom types)
+** Special form
+   - Examples: define, if, all conditional expressions in racket.
+   - All forms have some privileges.
+   - ~cond~ is a special form that does it all.
+** Recursion

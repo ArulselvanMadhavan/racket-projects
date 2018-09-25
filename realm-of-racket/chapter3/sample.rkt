@@ -13,3 +13,8 @@
 (struct student (name id# dorm))
 (define freshman1 (student 'Joe 1234 'NewHall))
 (struct example2 (p q r) #:transparent)
+(zero? 42)
+(symbol=? 'a 'b)
+(define (add-to-front x)
+  (cons x '(1 2 3)))
+(equal? 4 "arul")
