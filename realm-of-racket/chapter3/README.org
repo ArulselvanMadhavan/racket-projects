@@ -8,3 +8,17 @@
    - Booleans - ~#t,#f~
    - Symbols - word preceded by a "tick" mark.
    - Numbers - Floating Point, integers, rationals, complex numbers.
+   - Strings
+   - Lists
+** Cons cells
+   - Lists are held together with cons cells.
+** Structures in Racket
+   - For packaging multiple pieces of data together.
+   - For packaging fixed number of items.
+   - Structure definitions creates ~selectors~ by default for the
+     fields inside the structure.
+   - Default structures are opaque.
+   - Make them transparent as shown below, if you want.
+     #+BEGIN_SRC racket
+     (struct example2 (p q r) #:transparent)
+     #+END_SRC
