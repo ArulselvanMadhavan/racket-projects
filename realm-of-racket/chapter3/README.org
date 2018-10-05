@@ -17,7 +17,7 @@
    - For packaging fixed number of items.
    - Structure definitions creates ~selectors~ by default for the
      fields inside the structure.
-   - Default structures are opaque.
+   - By default structures are opaque.
    - Make them transparent as shown below, if you want.
      #+BEGIN_SRC racket
      (struct example2 (p q r) #:transparent)
